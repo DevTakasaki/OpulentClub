@@ -175,49 +175,49 @@
       <div class="item-produto">
         <img src="./src/imagens/cdg heart black.jpg" alt="Produto 1">
         <h3>Cdg Back Heart</h3>
-        <p>R$ 499,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Black Heart." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
       <div class="item-produto">
         <img src="./src/imagens/RED CDG.jpg" alt="Produto 2">
         <h3>Cdg Red Heart</h3>
-        <p>R$ 499,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Quero saber mais sobre a Cdg Red Heart." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
       <div class="item-produto">
         <img src="./src/imagens/cdg doblee heart.jpg" alt="Produto 1">
         <h3>Cdg Doblee Heart</h3>
-        <p>R$ 499,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Doblee Heart." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
       <div class="item-produto">
         <img src="./src/imagens/preta golden heart boa.webp" alt="Produto 1">
         <h3>Cdg Golden Heart</h3>
-        <p>R$ 499,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Golden Heart." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
       <div class="item-produto">
         <img src="./src/imagens/Coat preta.webp" alt="Produto 1">
         <h3>Cdg Black Coat </h3>
-        <p>R$ 799,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Black Coat." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
       <div class="item-produto">
         <img src="./src/imagens/coat off white.webp" alt="Produto 1">
         <h3>Cdg Off White Coat </h3>
-        <p>R$ 799,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Off White Coat." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
       <div class="item-produto">
         <img src="./src/imagens/coat azul.webp" alt="Produto 1">
         <h3>Cdg Off Blue Coat </h3>
-        <p>R$ 799,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Blue Coat." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
       <div class="item-produto">
         <img src="./src/imagens/Cdg Homme Black.webp" alt="Produto 1">
         <h3> Cdg Homme Black </h3>
-        <p>R$ 599,99</p>
+        
         <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Homme Black." class="btn-dourado mouse-hover">Mais Info</a>
       </div>
 
