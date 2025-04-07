@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpulentClub</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f8f8f8;
+      color: #222;
+    }
+
+    header {
+      background-color: #000;
+      color: #FFD700;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .logo-img {
+      height: 40px;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: #FFD700;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: white;
+      text-shadow: 0 0 10px gold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to bottom, #111, #222);
+      color: white;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn-dourado {
+      background-color: #FFD700;
+      color: black;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: inline-block;
+    }
+
+    .btn-dourado:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px gold;
+    }
+
+    .produtos {
+      padding: 4rem 2rem;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .produtos h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .item-produto {
+      background: #f4f4f4;
+      border-radius: 20px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .item-produto:hover {
+      transform: translateY(-10px);
+    }
+
+    .item-produto img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .item-produto h3 {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      background-color: #000;
+      color: #ccc;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="./src/imagens/LOGO OPULENT PRETA.jpg" alt="Logo" class="logo-img">
+      <div class="logo"></div>
+    </div>
+    <nav>
+      <a href="https://www.instagram.com/opulent.clubb/" target="_blank">Instagram</a>
+      <a href="https://wa.me/5541988300883?text=Olá! Quero saber mais sobre seus produtos. ."" target="_blank">WhatsApp</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Opulent Club</h1>
+    <p>Veja peças exclusivas com acabamento impecável e sofisticação incomparável.</p>
+    <a href="#produtos" class="btn-dourado mouse-hover">Ver Coleção</a>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="galeria">
+      <div class="item-produto">
+        <img src="./src/imagens/cdg heart black.jpg" alt="Produto 1">
+        <h3>Cdg Back Heart</h3>
+        <p>R$ 499,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Black Heart." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+      <div class="item-produto">
+        <img src="./src/imagens/RED CDG.jpg" alt="Produto 2">
+        <h3>Cdg Red Heart</h3>
+        <p>R$ 499,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Quero saber mais sobre a Cdg Red Heart." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+      <div class="item-produto">
+        <img src="./src/imagens/cdg doblee heart.jpg" alt="Produto 1">
+        <h3>Cdg Doblee Heart</h3>
+        <p>R$ 499,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Doblee Heart." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+      <div class="item-produto">
+        <img src="./src/imagens/preta golden heart boa.webp" alt="Produto 1">
+        <h3>Cdg Golden Heart</h3>
+        <p>R$ 499,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Golden Heart." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+      <div class="item-produto">
+        <img src="./src/imagens/Coat preta.webp" alt="Produto 1">
+        <h3>Cdg Black Coat </h3>
+        <p>R$ 799,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Black Coat." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+      <div class="item-produto">
+        <img src="./src/imagens/coat off white.webp" alt="Produto 1">
+        <h3>Cdg Off White Coat </h3>
+        <p>R$ 799,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Off White Coat." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+      <div class="item-produto">
+        <img src="./src/imagens/coat azul.webp" alt="Produto 1">
+        <h3>Cdg Off Blue Coat </h3>
+        <p>R$ 799,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Blue Coat." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+      <div class="item-produto">
+        <img src="./src/imagens/Cdg Homme Black.webp" alt="Produto 1">
+        <h3> Cdg Homme Black </h3>
+        <p>R$ 599,99</p>
+        <a href="https://wa.me/5541988300883?text=Olá! Tenho Interesse na Cdg Homme Black." class="btn-dourado mouse-hover">Mais Info</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script>
+    ScrollReveal().reveal('.hero h1, .hero p, .btn-dourado', {
+      delay: 200,
+      distance: '50px',
+      duration: 1000,
+      origin: 'bottom',
+      reset: true
+    });
+
+    ScrollReveal().reveal('.item-produto', {
+      delay: 100,
+      distance: '30px',
+      duration: 800,
+      origin: 'bottom',
+      interval: 200,
+      reset: true
+    });
+
+    const hoverButtons = document.querySelectorAll('.mouse-hover');
+    hoverButtons.forEach(btn => {
+      btn.addEventListener('mousemove', (e) => {
+        const rect = btn.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        btn.style.setProperty('--x', `${x}px`);
+        btn.style.setProperty('--y', `${y}px`);
+      });
+
+      btn.addEventListener('mouseleave', () => {
+        btn.style.setProperty('--x', '50%');
+        btn.style.setProperty('--y', '50%');
+      });
+    });
+  </script>
+ <!-- Pop-up de vídeo -->
+<!-- Pop-up de vídeo -->
+<div id="videoPopup" style="display: flex;">
+    <div class="popup-overlay" id="popupOverlay"></div>
+    <div class="popup-content">
+      <button id="closePopup">&times;</button>
+      <video id="popupVideo" autoplay loop muted controls>
+        <source src="./src/imagens/video Opulent.mp4" type="video/mp4" />
+        Seu navegador não suporta vídeo.
+      </video>
+      <p style="color: white; text-align: center; margin-top: 10px; font-family: sans-serif; font-size: 14px;">
+        🔊 Clique no ícone de som para ativar o áudio
+      </p>
+    </div>
+  </div>
+  
+  <style>
+    #videoPopup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+  
+    .popup-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+    }
+  
+    .popup-content {
+      position: relative;
+      z-index: 2;
+      background: #000;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      max-width: 90%;
+      max-height: 80%;
+      text-align: center;
+    }
+  
+    .popup-content video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    #closePopup {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #fff;
+      border: none;
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      z-index: 3;
+    }
+  
+    #closePopup:hover {
+      background: #ffd700;
+      color: #000;
+    }
+  </style>
+  
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const popup = document.getElementById('videoPopup');
+      const closeBtn = document.getElementById('closePopup');
+      const overlay = document.getElementById('popupOverlay');
+      const video = document.getElementById('popupVideo');
+  
+      // Mostrar pop-up ao carregar
+      popup.style.display = 'flex';
+  
+      // Fechar e parar vídeo
+      function fecharPopup() {
+        popup.style.display = 'none';
+        video.pause();
+        video.currentTime = 0;
+      }
+  
+      closeBtn.addEventListener('click', fecharPopup);
+      overlay.addEventListener('click', fecharPopup);
+    });
+  </script>
+
+  
+  </script>
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 40px;">
+    <h2 style="color: gold; font-size: 24px; font-weight: bold; text-align: center; font-family: sans-serif;">
+      Faça seu pedido personalizado diretamente pelo WhatsApp!
+    </h2>
+  
+    <textarea id="pedido" placeholder="Descreva seu pedido aqui..."></textarea>
+    <button class="botao-whatsapp" onclick="enviarPedido()">💬 Enviar no WhatsApp</button>
+  </div>
+  
+  <style>
+    textarea {
+      width: 100%;
+      max-width: 500px;
+      height: 150px;
+      padding: 15px;
+      border-radius: 12px;
+      border: 2px solid gold;
+      background-color: #111;
+      color: white;
+      font-size: 16px;
+      resize: none;
+      outline: none;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+      transition: border 0.3s, box-shadow 0.3s;
+    }
+  
+    textarea:focus {
+      border-color: #ffd700;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+    }
+  
+    .botao-whatsapp {
+      background: linear-gradient(90deg, #b8860b, #ffd700, #b8860b);
+      background-size: 200% auto;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: 0.5s;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      animation: brilho 2s infinite linear;
+    }
+  
+    .botao-whatsapp:hover {
+      background-position: right center;
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+    }
+  
+    @keyframes brilho {
+      0% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); }
+      50% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.7); }
+      100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); }
+    }
+  </style>
+  
+  <script>
+    function enviarPedido() {
+      const mensagem = document.getElementById("pedido").value.trim();
+      if (mensagem === "") {
+        alert("Por favor, descreva seu pedido antes de enviar.");
+        return;
+      }
+  
+      const numeroWhatsApp = "5541988300883"; // Seu número aqui
+      const url = `https://wa.me/${5541988300883}?text=${encodeURIComponent(mensagem)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+  <footer>
+    <p>© 2025 OpulentClub — Todos os direitos reservados.</p>
+  </footer>
+  
+</body>
+</html>
